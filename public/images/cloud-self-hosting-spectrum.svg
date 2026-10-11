@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="695" height="130" viewBox="0 0 695 130">
+  <title>Cloud vs Self-Hosting Spectrum</title>
+  <desc>From in-house software and operations with more control and greater investment to off-the-shelf software and outsourced operations with less control and lower investment.</desc>
+  <rect width="695" height="130" fill="white"/>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" font-size="13">
+    <text x="0" y="12">
+      <tspan x="0">In-house software,</tspan>
+      <tspan x="0" dy="16">in-house operations</tspan>
+      <tspan x="0" dy="16">(e.g., application code)</tspan>
+    </text>
+    <text x="347.5" y="12" text-anchor="middle">
+      <tspan x="347.5">Off-the-shelf software,</tspan>
+      <tspan x="347.5" dy="16">in-house operations</tspan>
+      <tspan x="347.5" dy="16">(e.g., self-hosted database on IaaS)</tspan>
+    </text>
+    <text x="695" y="12" text-anchor="end">
+      <tspan x="695">Off-the-shelf software,</tspan>
+      <tspan x="695" dy="16">outsourced operations</tspan>
+      <tspan x="695" dy="16">(e.g., cloud services/SaaS)</tspan>
+    </text>
+  </g>
+  <path d="M 2 75 H 693" stroke="black" stroke-width="1"/>
+  <path d="M 0 75 L 11 69 L 8 75 L 11 81 Z M 695 75 L 684 69 L 687 75 L 684 81 Z" fill="black"/>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" font-size="16">
+    <text x="0" y="105">
+      <tspan x="0">More control</tspan>
+      <tspan x="0" dy="20">greater investment</tspan>
+    </text>
+    <text x="695" y="105" text-anchor="end">
+      <tspan x="695">Less control</tspan>
+      <tspan x="695" dy="20">lower investment</tspan>
+    </text>
+  </g>
+</svg>

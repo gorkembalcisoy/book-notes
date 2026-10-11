@@ -179,14 +179,7 @@ layout: default
 - Sol taraf: **self-hosting** ve **self-operations**
 - Sağa doğru gidildikçe hizmetlerin bir kısmı **dış hizmet** olarak alınır
 
-```mermaid
-flowchart LR
-    A["Self-hosting
-    (her şeyi kendin yönet)"] --> B["Kısmen yönetilen
-    hizmetler"]
-    B --> C["Cloud-native
-    (çoğu şey dışarıda)"]
-```
+<img src="/images/cloud-self-hosting-spectrum.svg" alt="Self-hosting'den bulut hizmetlerine: daha fazla kontrol ve yatırımdan daha az kontrol ve yatırıma uzanan spektrum" class="w-full my-8" />
 
 **Temel fikir:** Bulut, kullandığın kadar öde modeliyle operasyon yükünü azaltır.
 

@@ -210,6 +210,9 @@ layout: default
 
 # Cloud-Native Sistem Mimarisi
 
+- Farklı bir ekonomik modele sahip olmasının yanı sıra (donanım satın almak ve üzerinde çalıştırılacak yazılımlar için lisans ücreti ödemek yerine bir hizmete abone olmak), bulut teknolojisinin yükselişi, veri sistemlerinin teknik açıdan nasıl uygulandığı konusunda da derin etkiler yarattı
+- “Cloud Native” terimi, bulut hizmetlerinden en iyi şekilde yararlanacak şekilde tasarlanmış bir mimariyi ifade etmek için kullanılır
+
 - Sadece düşük seviyeli kaynakları (VM vb.) kullanmak değil, **daha üst seviye bulut servislerini** birleştirmek
 - Örnek: **Nesne depolama** (S3, Azure Blob Storage, Cloudflare R2)
   - Standart dosya sistemlerinden **daha sınırlı API** (temel okuma/yazma)

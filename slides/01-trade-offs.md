@@ -140,7 +140,7 @@ layout: default
 
 <div class="p-4 rounded" style="background: var(--slidev-code-background)">
 
-### System of Record
+### Record Data
 - **Birincil veri kaynağı**
 - Kullanıcıların orijinal verileri
 - Doğruluğun referans noktası
@@ -152,7 +152,7 @@ layout: default
 ### Derived Data
 - Record'lardan **türetilir**
 - Kaybolsa bile tekrar oluşturulabilir
-- Önbellek, indeks, materyalize görünüm gibi ortamlarda tutulur
+- Önbellek, indeks, materialized view gibi ortamlarda tutulur
 
 </div>
 

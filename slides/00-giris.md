@@ -73,7 +73,7 @@ layout: default
 layout: default
 ---
 
-# Bu Kitap Kimin İçin?
+# Kitabın Hedef Kitlesi
 
 - **Yazılım mühendisleri, yazılım mimarları ve teknik yöneticiler**
   - Çalıştıkları sistemlerin mimarisine dair kararlar verenler
@@ -86,15 +86,14 @@ layout: default
 layout: default
 ---
 
-# Bu Kitabı Okuduktan Sonra
+# Kitabın Hedeflediği Amaç
 
-- Hangi teknolojilerin hangi amaçlar için uygun olduğunu **belirleyebileceksiniz**
-- Araçların nasıl bir araya getirilerek **sağlam bir uygulama mimarisi** oluşturulacağını anlayacaksınız
-- Sistemlerin alt yapısında neler olduğuna dair **güçlü bir sezgi** geliştireceksiniz
+- Araçların birleştirilmesiyle **sağlam bir uygulama mimarisi** oluşturulması
+- Sistemlerin alt yapısında neler olduğuna dair **güçlü bir bilgi** oluşturulması
 - Böylece:
-  - Sistemlerin davranışlarını anlayabilir
-  - Doğru **tasarım kararları** alabilir
-  - Ortaya çıkabilecek sorunları **teşhis edebilirsiniz**
+  - Sistemlerin davranışlarının anlaşılması
+  - Doğru **tasarım kararları** alınabilmesi
+  - Ortaya çıkabilecek sorunların **teşhis edilebilmesi**
 
 ---
 layout: default
@@ -105,8 +104,8 @@ layout: default
 1. **Trade-Off'lar** — Veri sistemleri mimarisinde trade-off'lar
 2. **Fonksiyonel Olmayan Gereksinimler** — Performans, güvenilirlik, ölçeklenebilirlik
 3. **Veri Modelleri ve Sorgu Dilleri** — İlişkisel, belge, grafik modeller
-4. **Depolama ve Veri Getirme** — B-Tree, LSM-Tree, indeksler
-5. **Kodlama ve Evrim** — Veri formatları ve uyumluluk
+4. **Depolama ve Veri Getirme** — Veri tutma yöntemleri, indeksler
+5. **Formatlar ve Gelişim** — Veri formatları ve veri akışlarının gelişimi
 6. **Replikasyon** — Veriyi birden fazla düğümde tutmak
 7. **Sharding** — Veriyi düğümler arasında bölmek
 

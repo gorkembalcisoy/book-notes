@@ -134,17 +134,6 @@ layout: default
 layout: default
 ---
 
-# Data Lake'in Ötesi: Olay Akışları
-
-- Analiz verileri artık sadece dosya ve ilişkisel tablo değil, aynı zamanda **olay akışları** olarak sunuluyor
-- Dosya tabanlı analizde değişikliklere yanıt için analizler **periyodik olarak** tekrarlanır (örn. günlük)
-- **Stream processing** ile analiz sistemleri olaylara **saniyeler içinde** yanıt verebilir
-  - Örn. sahte veya kötü niyetli faaliyetlerin tespiti ve engellenmesi
-
----
-layout: default
----
-
 # Systems of Record ve Derived Data
 
 <div class="grid grid-cols-2 gap-6 mt-4">

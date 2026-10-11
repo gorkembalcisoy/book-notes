@@ -265,10 +265,14 @@ layout: default
 - Bir ağ üzerinden birbirleriyle iletişim kuran makinelerden oluşan sistem
 - Sistemdeki her bir işlemciye **düğüm (node)** denir
 - Veri bir serviste saklanıp başka bir serviste işleniyorsa **ağ üzerinden aktarım** gerekir
-  - Bu nedenle **bulut-native sistemler ve mikroservisler dağıtıktır**
+  - Bu nedenle **cloud-native sistemler ve mikroservisler dağıtıktır**
 
-**Dağıtık mimariyi iten nedenler:**
-Fault tolerance / yüksek erişilebilirlik • Ölçeklenebilirlik • Gecikme (latency) • Esneklik (elasticity) • Yasal uyumluluk (veri yerelleştirme kuralları)
+**Dağıtık mimariye iten nedenler:**
+- Fault tolerance / yüksek erişilebilirlik
+- Ölçeklenebilirlik
+- Gecikme (latency)
+- Esneklik (elasticity)
+- Yasal uyumluluk (veri yerelleştirme kuralları)
 
 ---
 layout: default

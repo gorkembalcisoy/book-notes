@@ -24,7 +24,7 @@ layout: default
 # Bölümün Haritası
 
 1. **Operational vs Analytical** sistemler
-2. Data Warehousing → **Data Lake** → Streaming
+2. Data Warehousing → **Data Lake**
 3. **Systems of Record** ve **Derived Data**
 4. **Cloud vs Self-Hosting** ve cloud-native mimari
 5. **Dağıtık vs Tek Düğümlü** sistemler

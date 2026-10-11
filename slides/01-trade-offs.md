@@ -125,6 +125,8 @@ layout: default
 - Veri ambarında iş analistleri **SQL sorguları** ile rapor alabilir
 - Ancak **veri mühendisleri** için bu yeterli değildir:
   - ML için model eğitilebilecek nitelikte veri çıkarılması gerekir
+- **Veri gölü (data lake):** farklı formatlardaki verileri, çoğunlukla nesne depolamada saklar
+  - İşlem kayıtları, JSON olayları, loglar, görüntüler; ham veya işlenmiş veri
 - **Veri göllerinde (data lake)** daha fazla **ham ve dağınık formatta** veri tutulur
   - Amaç: tüm veri mühendislerinin bunlardan anlamlı bir veri seti çıkarabilmesi
 

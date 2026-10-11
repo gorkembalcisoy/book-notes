@@ -25,8 +25,6 @@ layout: default
 
 # Bu Sunum Serisi Hakkında
 
-- **Designing Data-Intensive Applications** kitabının okuma notlarından hazırlanmıştır
-- Her bölüm için **ayrı bir sunum** olarak yapılandırıldı
 - Amaç: veri sistemleri alanının **tamamına** dair bir rehber sunmak
   - Tek bir ürüne odaklanmak yerine farklı teknolojilerin **avantaj ve dezavantajlarını** karşılaştırmak
 - Veri sistemlerinin **iç yapısı**, temel algoritmaları ve **trade-off**'ları ele alınır

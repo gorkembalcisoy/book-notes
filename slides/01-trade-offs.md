@@ -29,7 +29,6 @@ layout: default
 4. **Cloud vs Self-Hosting** ve cloud-native mimari
 5. **Dağıtık vs Tek Düğümlü** sistemler
 6. **Mikroservisler ve Serverless**
-7. Cloud computing vs **Süperbilgisayarlar**
 
 ---
 layout: section
@@ -319,35 +318,6 @@ layout: default
 - Serverless'ta sağlayıcı kaynakları **otomatik** tahsis eder ve serbest bırakır
 - **Ölçümlü faturalandırma:** kodun çalıştığı süre için ödeme yapılır
   - Bulut depolamanın kapasite planlaması yerine getirdiği modele benzer
-
----
-layout: default
----
-
-# Cloud Computing vs Süperbilgisayarlar
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
-
-### Süperbilgisayarlar
-- Hesaplama yoğun bilimsel işler
-- Hava tahmini, iklim modelleme
-- Moleküler dinamikler
-- Karmaşık optimizasyon, diferansiyel denklemler
-
-</div>
-
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
-
-### Cloud Computing
-- Çevrimiçi hizmetler
-- İş veri sistemleri
-- Kullanıcı taleplerini **yüksek erişilebilirlikle** karşılayan sistemler
-
-</div>
-
-</div>
 
 ---
 layout: center

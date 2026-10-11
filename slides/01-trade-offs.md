@@ -134,7 +134,7 @@ layout: default
 layout: default
 ---
 
-# Systems of Record ve Derived Data
+# Systems of Record & Derived Data
 
 <div class="grid grid-cols-2 gap-6 mt-4">
 

@@ -316,7 +316,6 @@ layout: default
 # Serverless (FaaS)
 
 - **Function as a Service** modelinde altyapı yönetimi **bulut sağlayıcısına** devredilir
-- VM'lerde instansın ne zaman başlayıp duracağını **manuel** belirlersiniz
 - Serverless'ta sağlayıcı kaynakları **otomatik** tahsis eder ve serbest bırakır
 - **Ölçümlü faturalandırma:** kodun çalıştığı süre için ödeme yapılır
   - Bulut depolamanın kapasite planlaması yerine getirdiği modele benzer

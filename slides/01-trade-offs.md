@@ -271,8 +271,7 @@ layout: default
 - Fault tolerance / yüksek erişilebilirlik
 - Ölçeklenebilirlik
 - Gecikme (latency)
-- Esneklik (elasticity)
-- Yasal uyumluluk (veri yerelleştirme kuralları)
+- Esneklik (elasticity) -> boş durumdaki kaynakların ihtiyacı olan uygulamalara devri
 
 ---
 layout: default

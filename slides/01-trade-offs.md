@@ -179,7 +179,7 @@ layout: default
 - Sol taraf: **self-hosting** ve **self-operations**
 - Sağa doğru gidildikçe hizmetlerin bir kısmı **dış hizmet** olarak alınır
 
-<img src="/images/cloud-self-hosting-spectrum.svg" alt="Self-hosting'den bulut hizmetlerine: daha fazla kontrol ve yatırımdan daha az kontrol ve yatırıma uzanan spektrum" class="w-full my-8" />
+<img src="./assets/cloud-self-hosting-spectrum.svg" alt="Self-hosting'den bulut hizmetlerine: daha fazla kontrol ve yatırımdan daha az kontrol ve yatırıma uzanan spektrum" class="w-full my-8" />
 
 **Temel fikir:** Bulut, kullandığın kadar öde modeliyle operasyon yükünü azaltır.
 

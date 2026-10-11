@@ -30,7 +30,6 @@ layout: default
 5. **Dağıtık vs Tek Düğümlü** sistemler
 6. **Mikroservisler ve Serverless**
 7. Cloud computing vs **Süperbilgisayarlar**
-8. Veri sistemleri, **hukuk ve toplum**
 
 ---
 layout: section
@@ -359,21 +358,6 @@ layout: default
 
 </div>
 
-</div>
-
----
-layout: default
----
-
-# Veri Sistemleri, Hukuk ve Toplum
-
-- Veri sistemlerinin yapısı yalnızca **teknik hedeflerden** değil, hizmet verilen kuruluşların **insani ihtiyaçlarından** da etkilenir
-- Giderek daha fazla veri sistemleri mühendisi:
-  - Kendi işinin gereksinimlerini karşılamanın **yeterli olmadığını** fark ediyor
-  - **Topluma karşı da sorumluluğumuz** var
-
-<div class="mt-8 opacity-80">
-Örnek konular: veri gizliliği, algoritmik ayrımcılık, veri sahipliği, yasal uyumluluk
 </div>
 
 ---

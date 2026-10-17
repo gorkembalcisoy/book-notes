@@ -71,10 +71,13 @@ layout: default
 - Sistem çok yük altında ve kapasite tavan yaptıysa performans **daha da kötüleşebilir**
   - Geç yanıt alan istemciler **tekrar istek göndermeye** başlar → yük daha da artar
 - Bu sorunları azaltmak için:
-  - **Exponential backoff** ile retry
-  - **Circuit breaker**
-  - **Backpressure** yanıtları (istemciye "yavaşla" deme)
-  - Kuyruk yönetimi ve **load balancing** algoritmaları
+  - Client side:
+    - **Exponential backoff** ile retry
+    - **Circuit breaker**
+  - Server side:
+    - Rate limiting
+    - **Backpressure** yanıtları (istemciye "yavaşla" deme)
+    - Kuyruk yönetimi ve **load balancing** algoritmaları
 
 <div class="mt-6 opacity-80">
 Kullanıcılar için <b>response time</b> en görünür ölçüttür; ancak arka plandaki işlem kapasitesi de en az onun kadar önemlidir.

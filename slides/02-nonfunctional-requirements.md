@@ -122,7 +122,7 @@ layout: default
 # Ortalama, Medyan ve Yüzdelikler
 
 - Ortalama (average) response time **yanıltıcıdır** — uç değerler (outlier) ortalamayı bozar
-- **Medyan (p50):** İsteklerin yarısı bu sürenin altında
+- **Medyan** alınarak uç değerler dışlanır ve daha iyi sonuçlar alınabilir.
 - Yüzdelikler: **p95, p99, p99.9**
   - Örn. p95 = 1.5 sn ise: 100 istekten 95'i 1.5 sn altında, 5'i üzerinde tamamlanmıştır
 
@@ -131,10 +131,6 @@ flowchart LR
     A["100 istek"] --> B["95 istek ≤ 1.5 sn"]
     A --> C["5 istek > 1.5 sn"]
 ```
-
-<div class="mt-4 opacity-80">
-Yüksek yüzdelikler (tail latency) <b>en yavaş deneyimleri</b> temsil eder — genelde en değerli kullanıcıların verisi en fazla olanlardır.
-</div>
 
 ---
 layout: default

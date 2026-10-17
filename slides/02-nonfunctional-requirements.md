@@ -23,62 +23,12 @@ layout: default
 
 # Bölümün Haritası
 
-1. **Case Study:** Sosyal ağ ana akışı (home timeline)
-2. **Performans:** response time ve throughput
-3. **Gecikme (latency)** vs **yanıt süresi**
-4. Ortalama, medyan ve **yüzdelikler** (p95, p99)
-5. **Güvenilirlik ve hata toleransı**
-6. **Ölçeklenebilirlik**
-7. **Bakım kolaylığı (maintainability)**
-
----
-layout: section
----
-
-# 2.1 Case Study: Sosyal Ağ Ana Akışı
-
----
-layout: default
----
-
-# Problem
-
-- Aynı anda **10 milyon** kullanıcı çevrimiçi ve giriş yapmış varsayalım
-- Kullanıcılar ana akışlarını görmek için sürekli **polling** yapıyor
-- Bu durumda saniyede **2 milyon sorgu** işlenmesi gerekir
-  - Seyrek aralıklarla bile olsa oldukça yüksek bir sayı
-
-**Nasıl daha iyi yapabiliriz?**
-
----
-layout: default
----
-
-# Çözüm: Push + Önceden Hesaplama
-
-<div class="grid grid-cols-2 gap-6 mt-8">
-
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
-
-### 1. Polling yerine Push
-Sunucu, çevrimiçi takipçilere yeni gönderileri **aktif olarak gönderir**
-
-</div>
-
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
-
-### 2. Sonuçları önceden hesapla
-Kullanıcının zaman çizelgesi istekleri **önbellekten** karşılanır
-
-</div>
-
-</div>
-
-<div class="mt-8 opacity-80">
-
-Bu örnek, fonksiyonel olmayan gereksinimlerin (performans, ölçeklenebilirlik) mimariyi nasıl şekillendirdiğini gösterir.
-
-</div>
+1. **Performans:** response time ve throughput
+2. **Gecikme (latency)** vs **yanıt süresi**
+3. Ortalama, medyan ve **yüzdelikler** (p95, p99)
+4. **Güvenilirlik ve hata toleransı**
+5. **Ölçeklenebilirlik**
+6. **Bakım kolaylığı (maintainability)**
 
 ---
 layout: section

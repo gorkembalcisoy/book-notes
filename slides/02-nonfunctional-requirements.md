@@ -34,7 +34,7 @@ layout: default
 layout: section
 ---
 
-# 2.2 Performansı Tanımlamak
+# Performansı Tanımlamak
 
 ---
 layout: two-cols
@@ -155,7 +155,7 @@ layout: default
 layout: section
 ---
 
-# 2.3 Güvenilirlik ve Hata Toleransı
+# Güvenilirlik ve Hata Toleransı
 
 ---
 layout: default
@@ -238,7 +238,7 @@ layout: default
 layout: section
 ---
 
-# 2.4 Ölçeklenebilirlik
+# Ölçeklenebilirlik
 
 ---
 layout: default
@@ -319,7 +319,7 @@ layout: default
 layout: section
 ---
 
-# 2.5 Bakım Kolaylığı (Maintainability)
+# Bakım Kolaylığı (Maintainability)
 
 ---
 layout: default

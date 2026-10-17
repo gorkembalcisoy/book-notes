@@ -133,24 +133,6 @@ flowchart LR
 ```
 
 ---
-layout: default
----
-
-# Response Time Metriklerinin Kullanımı
-
-- İzleme panolarında yüzdelik değerler için **sürekli ve verimli** hesaplama gerekir
-- Tipik yaklaşım:
-  - Son **10 dakika** içindeki isteklerin yanıt sürelerini takip et
-  - Her dakika medyan ve yüzdelikleri **yeniden hesapla**
-  - Grafik üzerinde göster
-
-<div class="mt-6 p-4 rounded" style="background: var(--slidev-code-background)">
-
-**Not:** Percentile hesaplaması doğrudan toplanamaz — pencere bazlı (rolling window) yaklaşımlar kullanılır.
-
-</div>
-
----
 layout: section
 ---
 

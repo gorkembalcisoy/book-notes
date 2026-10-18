@@ -205,24 +205,21 @@ interests: "dağıtık sistemler"
 
 <div>
 
-### Ağdaki Mesaj (Hex)
+### Kavramsal Gösterim
 
 ```text
-0A 05 41 79 C5 9F 65
-10 2A
-1A 0E 76 65 72 69 74 61
-62 61 6E 6C 61 72 C4 B1
-1A 14 64 61 C4 9F C4 B1
-74 C4 B1 6B 20 73 69 73
-74 65 6D 6C 65 72
+(1, "Ayşe")
+(2, 42)
+(3, "veritabanları")
+(3, "dağıtık sistemler")
 ```
 
 <div class="text-xs mt-3">
 
-- **47 bayt:** Hex, ikili verinin okunabilir gösterimidir; taşıma başlıkları dahil değildir.
-- `0A` = alan 1, metin türü; `05` = UTF-8 metin uzunluğu (5 bayt).
-- `10 2A` = alan 2, varint türü; değer **42**.
-- `1A` = alan 3, metin türü; her ilgi alanı için tekrarlanır.
+- Her çift: **(alan numarası / tag, değer)**.
+- Alan adları yerine `1`, `2`, `3` taşınır; alıcı bunları **şemadan** anlamlandırır.
+- `repeated` alanın her değeri aynı tag ile gösterilir.
+- Anlatım için sadeleştirilmiştir; gerçek ikili kodlama değildir.
 
 </div>
 

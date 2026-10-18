@@ -296,14 +296,47 @@ layout: default
 
 # Çok Boyutlu ve Tam Metin İndeksler
 
+<div class="grid grid-cols-2 gap-5 text-sm">
+
+<div>
+
 - **Çok boyutlu indeksler:** Birden fazla boyutta aralık sorguları (örn. konum + zaman)
   - R-tree, KD-tree gibi yapılar
 - **Tam metin (full-text) indeksler:**
   - **Lucene** (Elasticsearch ve Solr'un motoru):
     - Terimlerin içerik listelerine eşleşmesini **SSTable benzeri sıralı dosyalarda** saklar
     - Bu dosyalar arka planda **birleştirilir** (LSM mantığı)
-  - **PostgreSQL GIN indeksi:** JSON belgelerinde tam metin arama ve indeksleme
+  - **PostgreSQL GIN indeksi:** `tsvector` ile tam metin arama; ayrıca JSONB ve diziler için indeksleme
   - İnverted index mantığı: `kelime → geçtiği belgeler`
+
+</div>
+
+<div>
+
+### PostgreSQL: GIN ile Tam Metin Arama
+
+```sql
+CREATE TABLE makaleler (
+  id bigint PRIMARY KEY,
+  icerik text NOT NULL
+);
+
+CREATE INDEX makaleler_arama_idx
+ON makaleler USING GIN (
+  to_tsvector('turkish', icerik)
+);
+
+SELECT id, icerik FROM makaleler
+WHERE to_tsvector('turkish', icerik)
+  @@ plainto_tsquery('turkish',
+                    'veri tabanı');
+```
+
+İndeks ve sorgu **aynı metin dönüşümünü** kullanır. GIN, aranan terimleri içeren kayıtları bulmayı hızlandırır.
+
+</div>
+
+</div>
 
 ---
 layout: center

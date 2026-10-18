@@ -170,7 +170,7 @@ layout: default
 - **İkili (binary)** kodlama formatı — her veri için bir **şema** gerekir
 - Şema, Protocol Buffers'ın **IDL (arayüz tanımlama dili)** ile tanımlanır
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="grid grid-cols-[1fr_1fr_1.2fr] gap-4 mt-4">
 
 <div>
 
@@ -190,7 +190,7 @@ message Person {
 
 <div>
 
-### Örnek Mesaj (Text Format)
+### Mesaj (Text Format)
 
 ```text
 user_name: "Ayşe"
@@ -199,7 +199,32 @@ interests: "veritabanları"
 interests: "dağıtık sistemler"
 ```
 
-<p class="text-sm opacity-80">Okunabilir gösterimdir; ağda mesaj, alan adları yerine <b>tag numaraları ve değerlerle</b> ikili olarak kodlanır.</p>
+<p class="text-sm opacity-80">İnsan tarafından okunabilir gösterim.</p>
+
+</div>
+
+<div>
+
+### Ağdaki Mesaj (Hex)
+
+```text
+0A 05 41 79 C5 9F 65
+10 2A
+1A 0E 76 65 72 69 74 61
+62 61 6E 6C 61 72 C4 B1
+1A 14 64 61 C4 9F C4 B1
+74 C4 B1 6B 20 73 69 73
+74 65 6D 6C 65 72
+```
+
+<div class="text-xs mt-3">
+
+- **47 bayt:** Hex, ikili verinin okunabilir gösterimidir; taşıma başlıkları dahil değildir.
+- `0A` = alan 1, metin türü; `05` = UTF-8 metin uzunluğu (5 bayt).
+- `10 2A` = alan 2, varint türü; değer **42**.
+- `1A` = alan 3, metin türü; her ilgi alanı için tekrarlanır.
+
+</div>
 
 </div>
 

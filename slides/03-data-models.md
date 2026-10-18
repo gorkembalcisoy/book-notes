@@ -278,7 +278,7 @@ layout: two-cols
 
 # Zorluklar
 
-- Sonradan yapılan hesaplamalarla değişen verilerin **sabit hallerini tutmamak** → tekrar hesaplamada **farklı tutarlara** yol açabilir
+- Sonradan yapılan hesaplamalarla değişen verilerin **sabit hallerini tutmamak** → tekrar hesaplamada **farklı tutarlara** yol açabilir (mesela ürün fiyatı 1 yıl önce farklı olduğunda, aynı logları bu yıl aynı sırayla işlemek aynı sonucu vermeyecektir)
 - **Sıralama garantisi kritik:**
   - Event store, tüm materyalize görünümlerin olayları **log'daki sırayla** işlemesini garanti etmeli
   - Dağıtık sistemde bu **her zaman kolay sağlanamaz** (bkz. Bölüm 10)

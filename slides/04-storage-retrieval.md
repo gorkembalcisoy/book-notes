@@ -332,6 +332,7 @@ WHERE to_tsvector('turkish', icerik)
 ```
 
 İndeks ve sorgu **aynı metin dönüşümünü** kullanır. GIN, aranan terimleri içeren kayıtları bulmayı hızlandırır.
+Örneğin “Veri işleme sistemlerinde ilişkisel bir tabanı tercih ettik.” için de bu arama sonuç döndürür.
 
 </div>
 

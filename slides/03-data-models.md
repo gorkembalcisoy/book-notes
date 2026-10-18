@@ -114,12 +114,6 @@ Belge yapısını tablolara bölmek gereksiz karmaşık kodlara yol açar.
 - Sık sık **parça parça** sorgulama gerekiyorsa
 - Güçlü tutarlılık ve join desteği gerekiyorsa
 
-<div class="mt-4 text-sm opacity-80">
-
-**Dikkat:** Join yoksa bile ilişkiler uygulama kodunda kurulur — bu da karmaşıklığı veritabanından uygulamaya taşır.
-
-</div>
-
 ---
 layout: default
 ---

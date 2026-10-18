@@ -156,9 +156,9 @@ layout: default
 
 # Grafik Model Türleri
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="grid grid-cols-[0.85fr_1.65fr] gap-5 mt-4 items-center">
 
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
+<div class="p-3 rounded text-sm" style="background: var(--slidev-code-background)">
 
 ### Property-Graph Model
 **Node'da:**
@@ -171,16 +171,20 @@ layout: default
 - İlişki türü
 - Key-value çiftleri
 
-</div>
-
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
-
 ### Triple-Store Model
 Veriler **özne - yüklem - nesne** üçlüleri olarak tutulur
 
 Örn:
 `(Ali, arkadaş, Ayşe)`
 `(Ali, doğumYeri, İstanbul)`
+
+</div>
+
+<div class="text-center">
+
+<img src="./assets/property-graph-example.svg" alt="Lucy ve Alain’in yaşadıkları ve doğdukları yerleri; married, lives_in, born_in ve within ilişkileriyle gösteren property-graph örneği" class="w-full rounded" />
+
+<p class="text-xs opacity-75 mt-3">Property-graph örneği: kişiler ve yerler düğüm, aralarındaki ilişkiler kenardır.</p>
 
 </div>
 

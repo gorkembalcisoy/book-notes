@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="695" height="391" viewBox="0 0 695 391">
+  <title>Property-graph örneği: Lucy, Alain ve konumları</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 3 5 Z"/>
+    </marker>
+  </defs>
+  <rect width="695" height="391" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="1" marker-end="url(#arrow)">
+    <path d="M83 82V47"/>
+    <path d="M83 162V128"/>
+    <path d="M130 345L83 229"/>
+    <path d="M166 345L265 289"/>
+    <path d="M212 367H283"/>
+    <path d="M347 345V290"/>
+    <path d="M413 367H529"/>
+    <path d="M347 244V209"/>
+    <path d="M347 163V128"/>
+    <path d="M347 82L398 47"/>
+    <path d="M612 82L561 47"/>
+    <path d="M612 163V128"/>
+    <path d="M612 264V229"/>
+    <path d="M612 345V310"/>
+  </g>
+  <g fill="white" stroke="black" stroke-width="1.8">
+    <rect x="1" y="1" width="164" height="45"/>
+    <rect x="1" y="82" width="164" height="45"/>
+    <rect x="1" y="163" width="164" height="65"/>
+    <rect x="397" y="1" width="165" height="45"/>
+    <rect x="265" y="82" width="165" height="45"/>
+    <rect x="265" y="163" width="165" height="45"/>
+    <rect x="265" y="244" width="165" height="45"/>
+    <rect x="529" y="82" width="165" height="45"/>
+    <rect x="529" y="163" width="165" height="65"/>
+    <rect x="529" y="264" width="165" height="45"/>
+    <rect x="529" y="345" width="165" height="45"/>
+    <rect x="83" y="345" width="129" height="45" fill="#eee"/>
+    <rect x="283" y="345" width="129" height="45" fill="#eee"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="black">
+    <text x="14" y="20">type: continent<tspan x="14" dy="17">name: North America</tspan></text>
+    <text x="14" y="101">type: country<tspan x="14" dy="17">name: United States</tspan></text>
+    <text x="14" y="182">type: state<tspan x="14" dy="17">name: Idaho</tspan><tspan x="14" dy="17">abbreviation: ID</tspan></text>
+    <text x="410" y="20">type: continent<tspan x="410" dy="17">name: Europe</tspan></text>
+    <text x="278" y="101">type: country<tspan x="278" dy="17">name: United Kingdom</tspan></text>
+    <text x="278" y="182">type: country<tspan x="278" dy="17">name: England</tspan></text>
+    <text x="278" y="263">type: city<tspan x="278" dy="17">name: London</tspan></text>
+    <text x="542" y="101">type: country<tspan x="542" dy="17">name: France</tspan></text>
+    <text x="542" y="182">type: région<tspan x="542" dy="17">name_fr: Normandie</tspan><tspan x="542" dy="17">name_en: Normandy</tspan></text>
+    <text x="542" y="283">type: département<tspan x="542" dy="17">name: Manche</tspan></text>
+    <text x="542" y="364">type: city<tspan x="542" dy="17">name: Saint-Lô</tspan></text>
+    <text x="96" y="364">type: person<tspan x="96" dy="17">name: Lucy</tspan></text>
+    <text x="296" y="364">type: person<tspan x="296" dy="17">name: Alain</tspan></text>
+    <text x="89" y="69">within</text>
+    <text x="89" y="150">within</text>
+    <text x="318" y="69">within</text>
+    <text x="354" y="150">within</text>
+    <text x="354" y="231">within</text>
+    <text x="602" y="69">within</text>
+    <text x="618" y="150">within</text>
+    <text x="618" y="251">within</text>
+    <text x="618" y="332">within</text>
+    <text x="63" y="321">born_in</text>
+    <text x="234" y="321">lives_in</text>
+    <text x="356" y="321">lives_in</text>
+    <text x="224" y="361">married</text>
+    <text x="447" y="361">born_in</text>
+  </g>
+</svg>

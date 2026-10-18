@@ -281,7 +281,7 @@ layout: two-cols
 - Sonradan yapılan hesaplamalarla değişen verilerin **sabit hallerini tutmamak** → tekrar hesaplamada **farklı tutarlara** yol açabilir (mesela ürün fiyatı 1 yıl önce farklı olduğunda, aynı logları bu yıl aynı sırayla işlemek aynı sonucu vermeyecektir)
 - **Sıralama garantisi kritik:**
   - Event store, tüm materyalize görünümlerin olayları **log'daki sırayla** işlemesini garanti etmeli
-  - Dağıtık sistemde bu **her zaman kolay sağlanamaz** (bkz. Bölüm 10)
+  - Dağıtık sistemde bu **her zaman kolay sağlanamaz**
 
 <div class="mt-4 text-sm">
 
@@ -316,6 +316,5 @@ class: text-center
 
 - **Belge modeli** bir-çok ve tek seferde yüklenen veriler için; **ilişkisel model** many-to-many ve join ağırlıklı işler için uygundur
 - **Grafik modeller** (property-graph, triple-store) yoğun ilişkilerde güçlüdür
-- **GraphQL** istemci esnekliği sağlar; yetkilendirme ve performans bedeli vardır
 - **Event Sourcing + CQRS:** olayları gerçeğin kaynağı yap, okuma modellerini türet
 - Model seçimi, uygulamanın **evrimleşebilirliğini** doğrudan etkiler

@@ -1,6 +1,6 @@
 ---
 theme: default
-title: "Bölüm 5: Veri Kodlama ve Evrim"
+title: "Bölüm 5: Veri Kodlama ve Değişim"
 info: |
   ## DDIA Okuma Notları — Bölüm 5
   Uyumluluk • Kodlama Formatları • Veri Akış Modelleri
@@ -38,7 +38,7 @@ layout: default
 layout: default
 ---
 
-# Evrimlenebilirlik
+# Değişebilirlik
 
 - Sistemleri, değişikliklere **kolay uyum sağlayacak** şekilde tasarlamalıyız
 - Veri formatları ve şemalar zamanla **değişir**; sistemler eski ve yeni verilerle aynı anda çalışabilmeli

@@ -337,11 +337,11 @@ layout: default
 layout: default
 ---
 
-# Mesaj Aracılarında Kalıcılık
+# Mesaj Sistemlerinde Kalıcılık
 
-- Mesaj aracıları **kalıcılık** açısından farklılaşır:
+- Mesaj sistemleri **kalıcılık** açısından farklılaşır:
   - Birçoğu mesajları **diske yazar** → çökme/restart durumunda mesajlar korunur
-  - Veritabanlarının aksine, çoğu mesaj **okunduktan sonra siler**
+  - Veritabanlarının aksine, çoğu mesaj **okunduktan sonra silinir**
   - Bazıları mesajları **süresiz saklamak** üzere ayarlanabilir
 - Olay tabanlı veri yönetimi (event sourcing) kullanmak istiyorsanız bu özellik **gereklidir**
 

@@ -305,10 +305,6 @@ layout: default
   - İyi bir **soyutlama** yapılmalı
   - Gereksiz bağımlılıklardan kaçınılmalı
 
-<div class="mt-6 opacity-80">
-"Veriler koddan daha uzun ömürlüdür" — bu yüzden şema evrimi ve geriye dönük uyumluluk kritik öneme sahiptir (bkz. Bölüm 5).
-</div>
-
 ---
 layout: center
 class: text-center

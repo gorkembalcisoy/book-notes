@@ -307,7 +307,6 @@ layout: default
     - Terimlerin içerik listelerine eşleşmesini **SSTable benzeri sıralı dosyalarda** saklar
     - Bu dosyalar arka planda **birleştirilir** (LSM mantığı)
   - **PostgreSQL GIN indeksi:** `tsvector` ile tam metin arama; ayrıca JSONB ve diziler için indeksleme
-  - İnverted index mantığı: `kelime → geçtiği belgeler`
 
 </div>
 

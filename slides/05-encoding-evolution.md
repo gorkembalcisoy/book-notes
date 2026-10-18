@@ -9,7 +9,7 @@ mdc: true
 highlighter: shiki
 ---
 
-# Veri Kodlama ve Evrim
+# Veri Kodlama ve Değişim
 
 <div class="pt-12">
   <span class="px-2 py-1 rounded text-sm" style="background: var(--slidev-code-background)">

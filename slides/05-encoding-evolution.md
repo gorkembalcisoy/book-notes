@@ -135,10 +135,6 @@ layout: default
 - Özellikle **veri alışverişi** amacıyla popülerliklerini koruyacaklar
 - Önemli olan: taraflar format konusunda **anlaşırsa**, formatın verimliliği ikinci plandadır
   - Farklı kuruluşların **anlaşmasını sağlamak**, diğer sorunlardan daha zordur
-- **Zayıf yönleri:**
-  - Sayı hassasiyeti (büyük int64'ler, ondalık)
-  - İkili veri desteği zayıf (Base64 gerekir)
-  - Şema yok (JSON'da isteğe bağlı schema için ek araç gerekir)
 
 ---
 layout: default

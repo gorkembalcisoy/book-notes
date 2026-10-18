@@ -168,14 +168,7 @@ layout: default
 | **Yazma** | Yoğun yazma için daha uygun | Yazma daha maliyetli |
 | **Okuma** | Okuma için daha yavaş | Okuma için daha hızlı |
 | **Yapı** | Append-only + compaction | Sayfa bazlı, yerinde güncelleme |
-| **Örnek** | Cassandra, ScyllaDB, RocksDB | PostgreSQL, MySQL (InnoDB) |
-
-<div class="mt-6 opacity-80">
-
-- Kesin bir "ya da" yoktur; bazı motorlar **iki yaklaşımı birleştirir** (birden fazla B-tree'yi LSM tarzı birleştirmek gibi)
-- Geçerli karşılaştırma için sistemleri **kendi iş yükünüzle** test edin
-
-</div>
+| **Örnek** | Cassandra, ScyllaDB, RocksDB | PostgreSQL, MySQL |
 
 ---
 layout: default

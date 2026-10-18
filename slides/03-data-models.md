@@ -25,9 +25,8 @@ layout: default
 
 1. **İlişkisel vs Belge (document)** modeller
 2. **Grafik (graph)** veri modelleri
-3. **GraphQL**
-4. **Event Sourcing ve CQRS**
-5. **DataFrame, matris ve diziler**
+3. **Event Sourcing ve CQRS**
+4. **DataFrame, matris ve diziler**
 
 ---
 layout: default
@@ -194,25 +193,7 @@ Veriler **özne - yüklem - nesne** üçlüleri olarak tutulur
 layout: section
 ---
 
-# 3.3 GraphQL
-
----
-layout: default
----
-
-# GraphQL
-
-- Geliştiricilerin, **sunucu tarafı API'yi değiştirmeden** istemci kodundaki sorguları hızlıca değiştirmesini sağlar
-- **Avantaj:** Sunucu, UI oluşturmak için istemcinin hangi alanlara ihtiyaç duyduğunu **bilmek zorunda değildir** — istemci ihtiyacını doğrudan talep eder
-- **Bedeli:**
-  - Sorguları iç servislere iletmek için **dönüşüm araçları** gerekir (servisler genellikle REST/gRPC konuşur)
-  - **Yetkilendirme**, hız sınırlama (rate limiting) ve **performans** ek zorluklardır
-
----
-layout: section
----
-
-# 3.4 Event Sourcing ve CQRS
+# 3.3 Event Sourcing ve CQRS
 
 ---
 layout: default
@@ -302,7 +283,7 @@ layout: two-cols
 layout: section
 ---
 
-# 3.5 DataFrame, Matris ve Diziler
+# 3.4 DataFrame, Matris ve Diziler
 
 ---
 layout: default

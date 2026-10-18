@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="695" height="517" viewBox="0 0 695 517">
+  <title>Event log ile müşteri rezervasyon onayı ve konferans panosu oluşturma</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10L3 5Z" fill="#222"/>
+    </marker>
+  </defs>
+  <rect width="695" height="517" fill="white"/>
+  <g fill="none" stroke="#333" stroke-width="1">
+    <rect x="1" y="26" width="230" height="489"/>
+    <path d="M1 102H231M1 164H231M1 278H231M1 391H231M1 488H231"/>
+    <rect x="356" y="46" width="338" height="194"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <g font-size="16">
+      <text x="0" y="15">Event log</text>
+      <text x="356" y="15">Materialized view:<tspan x="356" dy="18">Customer booking confirmation</tspan></text>
+      <text x="356" y="310">Materialized view:<tspan x="356" dy="18">Conference organizer dashboard</tspan></text>
+    </g>
+    <g font-size="12.5">
+      <text x="9" y="41" font-weight="bold">conference_created</text>
+      <text x="9" y="58">timestamp: 2025-10-28 14:53:20<tspan x="9" dy="17">conf_id: 123</tspan><tspan x="9" dy="17">name: Data-Intensive App Developers</tspan></text>
+      <text x="9" y="121" font-weight="bold">registrations_opened</text>
+      <text x="9" y="138">timestamp: 2025-10-30 07:03:19<tspan x="9" dy="17">conf_id: 123</tspan></text>
+      <text x="9" y="183" font-weight="bold">seats_reserved</text>
+      <text x="9" y="200">timestamp: 2025-10-30 07:06:01<tspan x="9" dy="17">conf_id: 123</tspan><tspan x="9" dy="17">customer_id: 331</tspan><tspan x="9" dy="17">num_seats: 3</tspan><tspan x="9" dy="17">booking_id: 4001</tspan></text>
+      <text x="9" y="297" font-weight="bold">booking_payment_confirmed</text>
+      <text x="9" y="314">timestamp: 2025-10-30 07:10:42<tspan x="9" dy="17">conf_id: 123</tspan><tspan x="9" dy="17">customer_id: 331</tspan><tspan x="9" dy="17">paid_amount: 1497.00</tspan><tspan x="9" dy="17">paid_currency: USD</tspan></text>
+      <text x="9" y="410" font-weight="bold">booking_canceled</text>
+      <text x="9" y="427">timestamp: 2025-10-31 21:52:35<tspan x="9" dy="17">conf_id: 123</tspan><tspan x="9" dy="17">customer_id: 345</tspan><tspan x="9" dy="17">booking_id: 4003</tspan></text>
+      <text x="9" y="506">…</text>
+      <text x="278" y="241">Derive<tspan x="278" dy="13">multiple</tspan><tspan x="278" dy="13">materialized</tspan><tspan x="278" dy="13">views from</tspan><tspan x="278" dy="13">the same</tspan><tspan x="278" dy="13">event log</tspan></text>
+      <text x="382" y="352">Seats<tspan x="382" dy="14">booked</tspan></text>
+      <text x="553" y="366">Venue capacity</text>
+      <text x="622" y="467">Time</text>
+      <text x="391" y="500" text-anchor="middle">Registrations<tspan x="391" dy="14">open</tspan></text>
+      <text x="610" y="500" text-anchor="middle">Conference<tspan x="610" dy="14">begins</tspan></text>
+    </g>
+  </g>
+  <g font-family="monospace" font-size="12">
+    <text x="365" y="68">{</text>
+    <text x="378" y="84"><tspan fill="#3000b0" font-weight="bold">"booking_id"</tspan>: <tspan fill="#e30">4001</tspan>,</text>
+    <text x="378" y="100"><tspan fill="#3000b0" font-weight="bold">"conference_name"</tspan>: <tspan fill="#e30">"Data-Intensive App ..."</tspan>,</text>
+    <text x="378" y="117"><tspan fill="#3000b0" font-weight="bold">"paid_amount"</tspan>: <tspan fill="#e30">1497.0</tspan>,</text>
+    <text x="378" y="133"><tspan fill="#3000b0" font-weight="bold">"paid_currency"</tspan>: <tspan fill="#e30">"USD"</tspan>,</text>
+    <text x="378" y="149"><tspan fill="#3000b0" font-weight="bold">"unassigned_seats"</tspan>: <tspan fill="#e30">1</tspan>,</text>
+    <text x="378" y="165"><tspan fill="#3000b0" font-weight="bold">"assigned_seats"</tspan>: [</text>
+    <text x="392" y="182">{<tspan fill="#3000b0" font-weight="bold">"badge_id"</tspan>: <tspan fill="#e30">501</tspan>, <tspan fill="#3000b0" font-weight="bold">"badge_name"</tspan>: <tspan fill="#e30">"Aaliyah"</tspan>},</text>
+    <text x="392" y="198">{<tspan fill="#3000b0" font-weight="bold">"badge_id"</tspan>: <tspan fill="#e30">502</tspan>, <tspan fill="#3000b0" font-weight="bold">"badge_name"</tspan>: <tspan fill="#e30">"Caleb"</tspan>}</text>
+    <text x="378" y="214">]</text>
+    <text x="365" y="229">}</text>
+  </g>
+  <g fill="none" stroke="#222" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M246 261L343 147"/>
+    <path d="M246 280L343 394"/>
+  </g>
+  <g fill="none" stroke="#222" stroke-width="1.8" marker-end="url(#arrow)">
+    <path d="M369 478V343"/>
+    <path d="M369 478H649"/>
+  </g>
+  <g fill="none" stroke="#666" stroke-dasharray="4 4">
+    <path d="M369 374H638M610 374V478"/>
+  </g>
+  <path d="M391 478L409 446H444L457 442H473L497 437L504 422H520L530 417H545L563 409L572 385" fill="none" stroke="black" stroke-width="1.8"/>
+  <path d="M391 470V486" stroke="black"/>
+</svg>

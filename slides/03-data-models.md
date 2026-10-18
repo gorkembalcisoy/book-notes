@@ -201,6 +201,10 @@ layout: default
 
 # Temel Fikir
 
+<div class="grid grid-cols-[0.9fr_1.4fr] gap-5 items-center">
+
+<div class="text-sm">
+
 - Verinin her zaman **en güncel hâlini** tutmak gerekmeyebilir
 - Verileri yazmanın en basit ve hızlı yolu: **olay günlüğü (event log)** tutmak
 - **Olay tabanlı veri modellemesi:**
@@ -209,6 +213,12 @@ layout: default
 - **CQRS (Command-Query Responsibility Segregation):**
   - Okuma için optimize edilmiş yapıları ayrı tut
   - Bunları yazma için optimize edilmiş yapılardan **türet**
+
+</div>
+
+<img src="./assets/event-log-materialized-views.svg" alt="Aynı konferans olay günlüğünden türetilen müşteri rezervasyon onayı ve konferans organizatörü panosu" class="w-full max-h-[410px] object-contain rounded" />
+
+</div>
 
 ---
 layout: two-cols

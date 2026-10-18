@@ -205,17 +205,6 @@ layout: default
 </div>
 
 ---
-layout: default
----
-
-# İnsanlar ve Güvenilirlik
-
-- Güvenilirlik, yazılımı kullanan **insanların güvenli iş yapabilmesi** için kritiktir
-- İnsan hatası kaçınılmazdır → sistemler insan hatasını **tolere edecek** şekilde tasarlanmalı
-  - İyi test pratikleri, net arayüzler, kademeli dağıtım (canary)
-  - Hızlı geri alma (rollback) mekanizmaları
-
----
 layout: section
 ---
 

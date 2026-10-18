@@ -170,6 +170,12 @@ layout: default
 - **İkili (binary)** kodlama formatı — her veri için bir **şema** gerekir
 - Şema, Protocol Buffers'ın **IDL (arayüz tanımlama dili)** ile tanımlanır
 
+<div class="grid grid-cols-2 gap-6 mt-4">
+
+<div>
+
+### Şema (`person.proto`)
+
 ```proto
 syntax = "proto3";
 
@@ -179,6 +185,25 @@ message Person {
   repeated string interests = 3;
 }
 ```
+
+</div>
+
+<div>
+
+### Örnek Mesaj (Text Format)
+
+```text
+user_name: "Ayşe"
+favorite_number: 42
+interests: "veritabanları"
+interests: "dağıtık sistemler"
+```
+
+<p class="text-sm opacity-80">Okunabilir gösterimdir; ağda mesaj, alan adları yerine <b>tag numaraları ve değerlerle</b> ikili olarak kodlanır.</p>
+
+</div>
+
+</div>
 
 - Alan **adları değiştirilebilir**
 - Ancak `1, 2, 3` gibi **tag numaraları değiştirilemez**

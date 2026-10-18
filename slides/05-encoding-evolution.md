@@ -117,8 +117,8 @@ layout: default
   - Python: `pickle`
   - Ruby: `Marshal`
 - **Sorunlar:**
-  - Dile **bağımlı** — başka dildeki sistem okuyamaz
-  - Güvenlik riskleri (arbitrary code / nesne oluşturma)
+  - Dile **bağımlı**
+  - Güvenlik riskleri
   - Sürüm uyumluluğu zayıf
 
 <div class="mt-4 opacity-80">

@@ -95,21 +95,6 @@ db.orders.aggregate([
 ```
 
 ---
-layout: default
----
-
-# İlişki Türleri
-
-**Many-to-one (çoka-bir):**
-Birçok kayıt tek bir varlığa referans verir — örn. birçok sipariş aynı kullanıcıya ait
-
-**Many-to-many (çoka-çok):**
-Kayıtlar karşılıklı olarak birbirine referans verir — örn. öğrenciler ↔ dersler
-
-- İlişkisel modelde many-to-many için **join tablosu** kullanılır
-- Belge modelinde çoka-çok ilişkiler doğal durmaz → **grafik model** daha uygun olabilir
-
----
 layout: two-cols
 ---
 

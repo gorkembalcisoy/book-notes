@@ -42,7 +42,7 @@ layout: default
 
 <div class="mt-6 p-4 rounded" style="background: var(--slidev-code-background)">
 
-Uygulama geliştiricisi → JSON/nesne modeliyle çalışır • Veritabanı → tablo/belge/graf modeliyle saklar • Donanım → baytlar ve disk blokları
+Uygulama geliştiricisi → JSON/nesne modeliyle çalışır • Veritabanı → tablo/belge/grafik modeliyle saklar • Donanım → baytlar ve disk blokları
 
 </div>
 

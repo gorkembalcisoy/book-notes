@@ -270,7 +270,7 @@ layout: default
 
 **Read-after-write (okuma-sonrası-yazma):**
 - Kullanıcı yazdığı veriyi **hemen** görmelidir
-- Çözüm: kullanıcının yazdığı kayıtlar **liderden** okunur (veya son yazma zamanına göre)
+- Çözüm: kullanıcının yazdığı kayıtlar **liderden** okunur
 
 **Monotonic reads (monotonik okuma):**
 - Aynı kullanıcı **zamanda geriye gitmez**

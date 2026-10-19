@@ -378,10 +378,8 @@ layout: default
 
 - Bazı sistemler "lider" kavramından tamamen **vazgeçer**
 - Herhangi bir kopya, istemciden gelen yazmayı **doğrudan kabul eder**
-- Tarihçe:
-  - İlk replikalı sistemlerin bazıları lidersizdi
+- Tarihçe- > İlk replikalı sistemlerin bazıları lidersizdi
   - **2007'de Amazon Dynamo** ile yeniden popülerleşti- **Riak, Cassandra, ScyllaDB** — Dynamo'dan esinlenen açık kaynak sistemler
-
 ```mermaid
 flowchart LR
     C[Client] -->|yazma| R1[(Replica 1)]

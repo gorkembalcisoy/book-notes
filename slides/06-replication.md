@@ -287,7 +287,6 @@ layout: default
   - Doğrusallık (linearizability) + **ACID işlemler** → veritabanı sanki **tek düğüm** gibi kullanılır
 - 2010'ların başında NoSQL yaklaşımı bunun **ölçeklenebilirliği sınırladığını** savundu
   - Büyük ölçekli sistemlerin **"nihai tutarlılık"** (eventual consistency) kabul etmesi gerektiği görüşü
-- ACID olmadan çözümler de mümkündür (read-after-write, monotonik okuma vb.)
 
 ---
 layout: section

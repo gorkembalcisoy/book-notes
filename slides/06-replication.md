@@ -343,7 +343,6 @@ layout: default
 - Bu süreci destekleyen kütüphaneye **"eşitleme motoru" (sync engine)** denir
   - **Çevrimdışı öncelikli (offline-first)** uygulamalar
   - **Yerel öncelikli (local-first):** geliştirici tüm hizmetleri kapatsa bile çalışır
-    - Açık standartlara sahip senkron protokolü gerekir
 
 ---
 layout: default

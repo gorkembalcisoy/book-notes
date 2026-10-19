@@ -395,9 +395,7 @@ layout: default
 
 - Bazı uygulamalarda istemci yazmayı **doğrudan kopyalara** gönderir; bazılarında **koordinatör düğüm** üstlenir
 - Liderli sistemin aksine, koordinatör yazmaların **belirli sırada** işlenmesini zorunlu kılmaz
-
 **Quorum kuralı:**
-
 ```mermaid
 flowchart LR
     W["w = yazma onayı"] --> Q{"w + r > n"}
@@ -405,7 +403,6 @@ flowchart LR
     N["n = replika sayısı"] --> Q
     Q -->|sağlanır| C[Tutarlı okuma/yazma kesişimi]
 ```
-
 - Okuma **birden fazla node'a** gider; karşılıklı kontrollerle **tutarlılık** sağlanır
 - Pratikte: 7 düğümden 4'ü veya 9 düğümden 5'i gibi quorum'lar
 

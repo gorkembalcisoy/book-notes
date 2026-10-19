@@ -344,7 +344,6 @@ layout: default
   - **Çevrimdışı öncelikli (offline-first)** uygulamalar
   - **Yerel öncelikli (local-first):** geliştirici tüm hizmetleri kapatsa bile çalışır
     - Açık standartlara sahip senkron protokolü gerekir
-    - **Git** de local-first bir işbirlikçi sistemdir (gerçek zamanlı olmasa da)
 
 ---
 layout: default

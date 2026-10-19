@@ -262,12 +262,6 @@ layout: default
   - Aynı sorgu lider ve follower'da **farklı sonuç** verebilir
   - Tutarsızlık **geçicidir** — yazma durup beklersen düzelir
 
-<div class="mt-6 opacity-80">
-
-Replikasyon duraklamaları (nisan 2024 örnekleriyle kitaplarda anlatılan) gerçek hayatta nadir değildir: yavaş ağ, yoğun yazma, düğüm arızası.
-
-</div>
-
 ---
 layout: default
 ---

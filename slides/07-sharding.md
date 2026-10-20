@@ -99,7 +99,7 @@ layout: default
 
 - **Temel neden: ölçeklenebilirlik**
   - Veri miktarı veya yazma hacmi tek düğümü aşarsa → birden fazla düğüme dağıt
-- Yatay ölçekleme sağlayan **temel araç** (bkz. shared-nothing mimarisi)
+- Yatay ölçekleme sağlayan **temel araç**
   - Daha büyük makineye geçmek yerine **daha fazla (küçük) makine** ekle
 - İş yükü eşit bölünürse parçalar **paralel** işlenir
 

@@ -26,10 +26,9 @@ layout: default
 1. Replikasyon + **sharding** birlikte
 2. Terminoloji: **partitioning vs sharding**
 3. **Ne zaman** sharding yapılır?
-4. **Multitenancy** için sharding
-5. **Key-value** verilerin parçalanması
-6. **Dengesizlik, hot shard, hot key**
-7. Yeni düğüm ekleme ve **rebalancing**
+4. **Key-value** verilerin parçalanması
+5. **Dengesizlik, hot shard, hot key**
+6. Yeni düğüm ekleme ve **rebalancing**
 
 ---
 layout: default
@@ -127,19 +126,6 @@ layout: default
 | --- | --- |
 | **Key-value** | Kolay — anahtara göre böl |
 | **İlişkisel** | Zor — ikincil indeksler ve join'ler |
-
----
-layout: default
----
-
-# Multitenancy için Sharding
-
-- **Multitenant** sistemlerde shard'lar şunun için kullanılır:
-  - Tenant'ların verilerinin **izolasyonu**
-  - **İzin yönetimi**
-- Örnek: Her büyük müşteri (tenant) kendi shard'ında
-  - Veri izolasyonu net
-  - Bir müşterinin yükü diğerlerini etkilemez
 
 ---
 layout: section

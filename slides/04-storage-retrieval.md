@@ -226,38 +226,6 @@ layout: default
 layout: default
 ---
 
-# Sorgu Yürütme: Compile vs Vectorization
-
-- Karmaşık SQL sorguları birden fazla aşamalı **sorgu planına** dönüştürülür
-  - Aşamalara **işlemci (operator)** denir; paralel çalışabilir
-  - Planlayıcı: hangi işlemciler, hangi sırayla, nerede çalışacak?
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
-
-### Compile
-- SQL'den **kod üretilir**
-- Satırlar tek tek incelenir
-- Makine koduna derlenir (**LLVM**), JIT'e benzer
-
-</div>
-
-<div class="p-4 rounded" style="background: var(--slidev-code-background)">
-
-### Vectorization
-- Sorgu **derlenmez**
-- Sütundaki değerler **toplu işlenir** → hız artar
-- Önceden tanımlı **operatörler** argüman alıp sonuç döndürür
-
-</div>
-
-</div>
-
----
-layout: default
----
-
 # Materialized ve Virtual View'lar, Data Cubes
 
 <div class="grid grid-cols-3 gap-4 mt-6">

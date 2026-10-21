@@ -1,4 +1,4 @@
-name: Deploy Slides to GitHub Pages
+name: Deploy Notes to GitHub Pages
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build all slide decks
+      - name: Build slides and navigation
         run: |
           BASE="${{ steps.pages.outputs.base_path }}"
           if [ -z "$BASE" ] || [ "$BASE" = "/" ]; then

@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Bölüm 6: Replikasyon"
 info: |
   ## DDIA Okuma Notları — Bölüm 6
@@ -371,7 +372,7 @@ layout: section
 # 6.4 Leaderless Replikasyon
 
 ---
-layout: default
+layout: two-cols
 ---
 
 # Lideri Olmayan Yaklaşım
@@ -380,6 +381,9 @@ layout: default
 - Herhangi bir kopya, istemciden gelen yazmayı **doğrudan kabul eder**
 - Tarihçe- > İlk replikalı sistemlerin bazıları lidersizdi
   - **2007'de Amazon Dynamo** ile yeniden popülerleşti- **Riak, Cassandra, ScyllaDB** — Dynamo'dan esinlenen açık kaynak sistemler
+
+::right::
+
 ```mermaid
 flowchart LR
     C[Client] -->|yazma| R1[(Replica 1)]

@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Bölüm 1: Veri Sistemleri Mimarisinde Trade-Off'lar"
 info: |
   ## DDIA Okuma Notları — Bölüm 1

@@ -1,0 +1,9 @@
+/* Navigation is provided by the outer contents tree. */
+#slidev-goto-dialog {
+  display: none !important;
+}
+
+/* Give dense slides more usable space without reducing their text size. */
+.slidev-layout {
+  padding: 24px 32px;
+}

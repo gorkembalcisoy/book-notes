@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Bölüm 7: Sharding (Parçalama)"
 info: |
   ## DDIA Okuma Notları — Bölüm 7
@@ -54,6 +55,7 @@ flowchart LR
     subgraph Node 3
         S3[Shard C + Replica A]
     end
+    S1 ~~~ S2 ~~~ S3
 ```
 
 ---

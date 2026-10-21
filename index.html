@@ -3,162 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DDIA Okuma Notları — Sunumlar</title>
-  <meta name="description" content="Designing Data-Intensive Applications kitabı okuma notları — Slidev sunum serisi" />
-  <style>
-    :root {
-      --bg: #0f1117;
-      --panel: #171a23;
-      --panel-hover: #1e2230;
-      --border: #2a2f3d;
-      --text: #e6e8ee;
-      --muted: #9aa1b0;
-      --accent: #4f8cff;
-      --accent-soft: rgba(79, 140, 255, 0.12);
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: radial-gradient(1200px 600px at 20% -10%, #1a2133 0%, var(--bg) 55%);
-      color: var(--text);
-      min-height: 100vh;
-      line-height: 1.6;
-    }
-    .container { max-width: 960px; margin: 0 auto; padding: 64px 24px 80px; }
-    .badge {
-      display: inline-block;
-      font-size: 12px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--accent);
-      background: var(--accent-soft);
-      border: 1px solid rgba(79, 140, 255, 0.3);
-      border-radius: 999px;
-      padding: 6px 14px;
-      margin-bottom: 20px;
-    }
-    h1 { font-size: 40px; line-height: 1.2; letter-spacing: -0.02em; }
-    .subtitle { color: var(--muted); font-size: 17px; margin-top: 14px; max-width: 640px; }
-    .hint {
-      margin-top: 28px;
-      font-size: 13px;
-      color: var(--muted);
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 12px 16px;
-      display: inline-block;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 16px;
-      margin-top: 40px;
-    }
-    a.card {
-      display: block;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 20px 22px;
-      text-decoration: none;
-      color: var(--text);
-      transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
-    }
-    a.card:hover {
-      background: var(--panel-hover);
-      border-color: var(--accent);
-      transform: translateY(-2px);
-    }
-    .card .num {
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--accent);
-      letter-spacing: 0.1em;
-    }
-    .card h2 { font-size: 18px; margin-top: 6px; letter-spacing: -0.01em; }
-    .card p { font-size: 13.5px; color: var(--muted); margin-top: 8px; }
-    .card .arrow { color: var(--accent); font-size: 13px; margin-top: 14px; display: inline-block; }
-    footer {
-      margin-top: 56px;
-      padding-top: 24px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 13px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: space-between;
-    }
-    footer a { color: var(--accent); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-  </style>
+  <title>DDIA Okuma Notları</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230969da'/%3E%3Cpath d='M9 7h14v18H9zM12 12h8M12 16h8M12 20h6' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E" />
+  <meta name="description" content="Designing Data-Intensive Applications kitabının bölüm bölüm okuma notları." />
 </head>
 <body>
-  <div class="container">
-    <span class="badge">Reading Notes → Slides</span>
-    <h1>Designing Data-Intensive Applications</h1>
-    <p class="subtitle">
-      Kitap okuma notlarından hazırlanan sunum serisi. Her bölüm için ayrı bir
-      <a href="https://sli.dev" style="color: var(--accent)">Slidev</a> sunumu.
-    </p>
-    <div class="hint">Sunumlarda gezinme: <b>← →</b> tuşları • <b>Space</b> ileri • <b>o</b> genel bakış • <b>f</b> tam ekran</div>
-
-    <div class="grid">
-      <a class="card" href="./00-giris/">
-        <span class="num">00</span>
-        <h2>Giriş</h2>
-        <p>Veri yoğun uygulamalar nedir, kitap kime hitap eder, içerik haritası.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-      <a class="card" href="./01-trade-offs/">
-        <span class="num">01</span>
-        <h2>Veri Sistemleri Mimarisinde Trade-Off'lar</h2>
-        <p>Operational vs analytical, cloud vs self-hosting, dağıtık vs tek düğüm.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-      <a class="card" href="./02-nonfunctional-requirements/">
-        <span class="num">02</span>
-        <h2>Fonksiyonel Olmayan Gereksinimler</h2>
-        <p>Performans, güvenilirlik, ölçeklenebilirlik ve bakım kolaylığı.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-      <a class="card" href="./03-data-models/">
-        <span class="num">03</span>
-        <h2>Veri Modelleri ve Sorgu Dilleri</h2>
-        <p>İlişkisel, belge ve grafik modeller; event sourcing ve CQRS.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-      <a class="card" href="./04-storage-retrieval/">
-        <span class="num">04</span>
-        <h2>Depolama ve Veri Getirme</h2>
-        <p>B-Tree, LSM-Tree, indeksler ve analitik depolama.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-      <a class="card" href="./05-encoding-evolution/">
-        <span class="num">05</span>
-        <h2>Veri Kodlama ve Değişim</h2>
-        <p>Uyumluluk, kodlama formatları ve veri akış modelleri.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-      <a class="card" href="./06-replication/">
-        <span class="num">06</span>
-        <h2>Replikasyon</h2>
-        <p>Single-leader, multi-leader, leaderless ve replication lag.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-      <a class="card" href="./07-sharding/">
-        <span class="num">07</span>
-        <h2>Sharding (Parçalama)</h2>
-        <p>Veriyi düğümler arasında bölme, hot spot'lar ve rebalancing.</p>
-        <span class="arrow">Sunumu aç →</span>
-      </a>
-    </div>
-
-    <footer>
-      <span>Sunumlar <a href="https://sli.dev">Slidev</a> ile üretilmiştir.</span>
-      <span>Kaynak: <i>Designing Data-Intensive Applications</i> okuma notları</span>
-    </footer>
-  </div>
+  <a class="skip-link" href="#content">İçeriğe geç</a>
+  <header class="header">
+    <button id="menu-toggle" class="menu-toggle" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="İçindekileri aç">☰</button>
+    <a class="brand" href="#00-giris"><span class="book-icon" aria-hidden="true">▤</span> DDIA <span class="brand-divider">/</span> <strong>Okuma Notları</strong></a>
+    <span class="header-caption">Designing Data-Intensive Applications</span>
+  </header>
+  <aside id="sidebar" class="sidebar" aria-label="İçindekiler">
+    <div class="sidebar-heading">İçindekiler <span id="chapter-count"></span></div>
+    <nav id="contents" aria-label="Bölümler ve alt başlıklar"></nav>
+    <div class="sidebar-footer">Designing Data-Intensive Applications<br />Kitap okuma notları</div>
+  </aside>
+  <button id="backdrop" class="backdrop" aria-label="İçindekileri kapat" type="button" hidden></button>
+  <main id="content" tabindex="-1">
+    <div class="document-bar"><span id="document-name"></span><span>Slayt görünümü</span></div>
+    <div class="slide-stage"><iframe id="slide-frame" title="Slayt sunumu" allow="fullscreen" allowfullscreen></iframe></div>
+    <nav class="slide-controls" aria-label="Slayt gezinmesi">
+      <button id="previous-slide" type="button" aria-label="Önceki slayt">← Önceki</button>
+      <span id="slide-position" aria-live="polite"></span>
+      <button id="next-slide" type="button" aria-label="Sonraki slayt">Sonraki →</button>
+    </nav>
+    <p class="slide-hint">← → tuşlarıyla slaytlar arasında gezinin veya soldan bir başlık seçin.</p>
+  </main>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Bölüm 3: Veri Modelleri ve Sorgu Dilleri"
 info: |
   ## DDIA Okuma Notları — Bölüm 3

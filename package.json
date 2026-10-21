@@ -2,9 +2,10 @@
   "name": "ddia-notes",
   "version": "1.0.0",
   "private": true,
-  "description": "Designing Data-Intensive Applications kitap notları - Slidev sunumları",
+  "description": "Designing Data-Intensive Applications kitap okuma notları",
   "scripts": {
-    "dev": "slidev slides/00-giris.md",
+    "predev": "BASE_PATH= bash scripts/build-slides.sh",
+    "dev": "vite --host 0.0.0.0",
     "dev:00": "slidev slides/00-giris.md",
     "dev:01": "slidev slides/01-trade-offs.md",
     "dev:02": "slidev slides/02-nonfunctional-requirements.md",
@@ -14,10 +15,13 @@
     "dev:06": "slidev slides/06-replication.md",
     "dev:07": "slidev slides/07-sharding.md",
     "build": "bash scripts/build.sh",
+    "preview": "vite preview --host 0.0.0.0",
     "export": "slidev export slides/00-giris.md"
   },
   "devDependencies": {
     "@slidev/cli": "^0.50.0",
-    "@slidev/theme-default": "^0.25.0"
+    "@slidev/theme-default": "^0.25.0",
+    "markdown-it": "^14.3.3",
+    "vite": "^6.4.5"
   }
 }

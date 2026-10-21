@@ -12,15 +12,8 @@ if [ -n "$BASE" ] && [ "${BASE#/}" = "$BASE" ]; then
   BASE="/$BASE"
 fi
 
-rm -rf "$OUT_DIR"
-mkdir -p "$OUT_DIR"
-cp index.html "$OUT_DIR/"
-
-for f in slides/*.md; do
-  name="$(basename "$f" .md)"
-  echo "▸ Building $name..."
-  npx slidev build "$f" --out "$OUT_DIR/$name" --base "$BASE/$name/"
-done
+bash scripts/build-slides.sh
+npx vite build --outDir "$OUT_DIR" --base "${BASE%/}/"
 
 echo ""
 echo "✔ Build tamamlandı: $OUT_DIR"

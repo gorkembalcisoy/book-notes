@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Bölüm 4: Depolama ve Veri Getirme"
 info: |
   ## DDIA Okuma Notları — Bölüm 4

@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Bölüm 5: Veri Kodlama ve Değişim"
 info: |
   ## DDIA Okuma Notları — Bölüm 5
@@ -248,6 +249,7 @@ Veriler, süreçler arasında farklı yollarla aktarılır:
 ```mermaid
 flowchart LR
     subgraph Akış Modelleri
+        direction LR
         A[Veritabanları] --> B[Servisler
         REST / RPC]
         B --> C[Eşzamansız

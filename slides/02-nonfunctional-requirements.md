@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Bölüm 2: Fonksiyonel Olmayan Gereksinimler"
 info: |
   ## DDIA Okuma Notları — Bölüm 2

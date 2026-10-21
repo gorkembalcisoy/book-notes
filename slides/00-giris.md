@@ -1,5 +1,6 @@
 ---
 theme: default
+aspectRatio: 16/10
 title: "Giriş: Veri Yoğun Uygulamalar"
 info: |
   ## DDIA Okuma Notları — Giriş
